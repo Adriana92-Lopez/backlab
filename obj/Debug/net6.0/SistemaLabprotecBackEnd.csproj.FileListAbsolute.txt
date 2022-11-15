@@ -36,3 +36,46 @@ C:\Users\Adriana\Documents\GitHub\Sistema Labprotec\SistemaLabprotecBackEnd\bin\
 C:\Users\Adriana\Documents\GitHub\Sistema Labprotec\SistemaLabprotecBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Adriana\Documents\GitHub\Sistema Labprotec\SistemaLabprotecBackEnd\obj\Debug\net6.0\SistemaLabprotecBackEnd.csproj.CopyComplete
 C:\Users\Adriana\Documents\GitHub\Sistema Labprotec\SistemaLabprotecBackEnd\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\appsettings.json
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\SistemaLabprotecBackEnd.staticwebassets.runtime.json
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\SistemaLabprotecBackEnd.exe
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\SistemaLabprotecBackEnd.deps.json
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\SistemaLabprotecBackEnd.runtimeconfig.json
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\SistemaLabprotecBackEnd.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\SistemaLabprotecBackEnd.pdb
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.csproj.AssemblyReference.cache
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.AssemblyInfoInputs.cache
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.AssemblyInfo.cs
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.RazorAssemblyInfo.cache
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.RazorAssemblyInfo.cs
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\staticwebassets\msbuild.SistemaLabprotecBackEnd.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\staticwebassets\msbuild.build.SistemaLabprotecBackEnd.props
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SistemaLabprotecBackEnd.props
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SistemaLabprotecBackEnd.props
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\scopedcss\bundle\SistemaLabprotecBackEnd.styles.css
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\scopedcss\projectbundle\SistemaLabprotecBackEnd.bundle.scp.css
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.csproj.CopyComplete
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\refint\SistemaLabprotecBackEnd.dll
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.pdb
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\SistemaLabprotecBackEnd.genruntimeconfig.cache
+C:\Users\LavarredaVillagran\Documents\ADRIANA\backlab\obj\Debug\net6.0\ref\SistemaLabprotecBackEnd.dll

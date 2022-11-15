@@ -744,25 +744,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adriana\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\LavarredaVillagran\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adriana\\Documents\\GitHub\\Sistema Labprotec\\SistemaLabprotecBackEnd\\SistemaLabprotecBackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\LavarredaVillagran\\Documents\\ADRIANA\\backlab\\SistemaLabprotecBackEnd.csproj",
       "projectName": "SistemaLabprotecBackEnd",
-      "projectPath": "C:\\Users\\Adriana\\Documents\\GitHub\\Sistema Labprotec\\SistemaLabprotecBackEnd\\SistemaLabprotecBackEnd.csproj",
-      "packagesPath": "C:\\Users\\Adriana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adriana\\Documents\\GitHub\\Sistema Labprotec\\SistemaLabprotecBackEnd\\obj\\",
+      "projectPath": "C:\\Users\\LavarredaVillagran\\Documents\\ADRIANA\\backlab\\SistemaLabprotecBackEnd.csproj",
+      "packagesPath": "C:\\Users\\LavarredaVillagran\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LavarredaVillagran\\Documents\\ADRIANA\\backlab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Adriana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LavarredaVillagran\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -823,7 +826,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
