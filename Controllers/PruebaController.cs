@@ -50,9 +50,22 @@ namespace SistemaLabprotecBackEnd.Controllers
                     cmd.Parameters.AddWithValue("@descripcion", request.GetValue("descripcion").ToString());
                     cmd.Parameters.AddWithValue("@precio", request.GetValue("precio").ToString());
                     cmd.Parameters.AddWithValue("@tiempo_procesamiento", request.GetValue("tiempo_procesamiento").ToString());
-                    cmd.Parameters.AddWithValue("@precio_oferta", request.GetValue("precio_oferta").ToString());
-                    cmd.Parameters.AddWithValue("@fecha_inicio_oferta", request.GetValue("fecha_inicio_oferta").ToString());
-                    cmd.Parameters.AddWithValue("@fecha_fin_oferta", request.GetValue("fecha_fin_oferta").ToString());
+
+                    if (request.ContainsKey("precio_oferta") && !string.IsNullOrEmpty(request.GetValue("precio_oferta").ToString()))
+                    {
+                        cmd.Parameters.AddWithValue("@precio_oferta", request.GetValue("precio_oferta").ToString());
+
+                    }
+                    if (request.ContainsKey("fecha_inicio_oferta") && !string.IsNullOrEmpty(request.GetValue("fecha_inicio_oferta").ToString()))
+                    {
+                        cmd.Parameters.AddWithValue("@fecha_inicio_oferta", request.GetValue("fecha_inicio_oferta").ToString());
+
+                    }
+                    if (request.ContainsKey("fecha_fin_oferta") && !string.IsNullOrEmpty(request.GetValue("fecha_fin_oferta").ToString()))
+                    {
+                        cmd.Parameters.AddWithValue("@fecha_fin_oferta", request.GetValue("fecha_fin_oferta").ToString());
+                    }
+
                     cmd.Parameters.AddWithValue("@paquete_promocional", request.GetValue("paquete_promocional").ToString());
                     cmd.Parameters.AddWithValue("@id_examenes", request.GetValue("id_examenes").ToString());
 
@@ -241,7 +254,7 @@ namespace SistemaLabprotecBackEnd.Controllers
         [HttpGet]
         [Produces("application/json")]
         [Route("mostrar")]
-        public IActionResult verificarPrueba(JObject request)//mostrarPrueba();
+        public IActionResult verificarPrueba()//mostrarPrueba();
         {
             dynamic respuesta;
 
@@ -262,7 +275,6 @@ namespace SistemaLabprotecBackEnd.Controllers
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@option", 4);
-                    cmd.Parameters.AddWithValue("@id", request.GetValue("id").ToString());
 
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     DataSet setter = new DataSet();

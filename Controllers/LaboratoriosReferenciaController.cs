@@ -239,7 +239,7 @@ namespace SistemaLabprotecBackEnd.Controllers
         [HttpGet]
         [Produces("application/json")]
         [Route("mostrar")]
-        public IActionResult verificarLaboratoriosReferencia(JObject request)//mostrarLaboratoriosReferencia();
+        public IActionResult verificarLaboratoriosReferencia()//mostrarLaboratoriosReferencia();
         {
             dynamic respuesta;
 
@@ -260,7 +260,6 @@ namespace SistemaLabprotecBackEnd.Controllers
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@option", 4);
-                    cmd.Parameters.AddWithValue("@id", request.GetValue("id").ToString());
 
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     DataSet setter = new DataSet();

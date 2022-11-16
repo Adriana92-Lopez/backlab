@@ -230,7 +230,7 @@ namespace SistemaLabprotecBackEnd.Controllers
         [HttpGet]
         [Produces("application/json")]
         [Route("mostrar")]
-        public IActionResult verificarExamenes(JObject request)//verificarExamenes();
+        public IActionResult verificarExamenes()//verificarExamenes();
         {
             dynamic respuesta;
 
