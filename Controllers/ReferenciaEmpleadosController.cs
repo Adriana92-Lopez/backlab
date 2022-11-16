@@ -293,10 +293,10 @@ namespace SistemaLabprotecBackEnd.Controllers
             }
         }//verificarReferenciaEmpleados();
 
-        [HttpGet]
+        [HttpPost]
         [Produces("application/json")]
         [Route("mostrar")]
-        public IActionResult verificarReferenciaEmpleados()//mostrarReferenciaEmpleados();
+        public IActionResult verificarReferenciaEmpleados(JObject request)//mostrarReferenciaEmpleados();
         {
             dynamic respuesta;
 
@@ -317,7 +317,8 @@ namespace SistemaLabprotecBackEnd.Controllers
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@option", 4);
-                    
+                    cmd.Parameters.AddWithValue("@id_empleado", request.GetValue("id_empleado").ToString());
+
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     DataSet setter = new DataSet();
 
