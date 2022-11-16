@@ -230,7 +230,7 @@ namespace SistemaLabprotecBackEnd.Controllers
 
 
 
-        [HttpGet]
+        [HttpPost]
         [Produces("application/json")]
         [Route("verificar")]
         public IActionResult verificarPruebaOrdenMedica(JObject request)//verificarPruebaOrdenMedica();
@@ -254,7 +254,7 @@ namespace SistemaLabprotecBackEnd.Controllers
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@option", 4);
-                    cmd.Parameters.AddWithValue("@id", request.GetValue("id").ToString());
+                    cmd.Parameters.AddWithValue("@id_orden_medica", request.GetValue("id_orden_medica").ToString());
 
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     DataSet setter = new DataSet();

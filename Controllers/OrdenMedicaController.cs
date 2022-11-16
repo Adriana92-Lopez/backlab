@@ -227,9 +227,9 @@ namespace SistemaLabprotecBackEnd.Controllers
 
 
 
-        [HttpGet]
+        [HttpPost   ]
         [Produces("application/json")]
-        [Route("verificar")]
+        [Route("mostrar")]
         public IActionResult verificarRoles(JObject request)//verificarRoles();
         {
             dynamic respuesta;
@@ -251,7 +251,8 @@ namespace SistemaLabprotecBackEnd.Controllers
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@option", 4);
-                    
+                    cmd.Parameters.AddWithValue("@id_paciente", request.GetValue("id_paciente").ToString());
+
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     DataSet setter = new DataSet();
 
